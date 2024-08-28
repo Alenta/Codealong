@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+body {
+  min-height: 100svh;
+}
+
+.img-container {
+  height: 180px;
+  width: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-container {
+  border: solid, 1px, black;
+  background-color: rgb(41, 86, 69);
+  color: #ececec;
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+}
