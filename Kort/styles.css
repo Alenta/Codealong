@@ -1,11 +1,17 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  border-radius: 5px;
 }
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
 img {
   display: block;
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 body {
@@ -13,14 +19,17 @@ body {
 }
 
 .img-container {
+  border: solid, 10px, black;
   height: 180px;
-  width: 100px;
+  margin-top: 40px;
 }
 
 main {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .card-container {
@@ -30,4 +39,20 @@ main {
   display: flex;
   flex-direction: row;
   max-width: 500px;
+}
+
+.detail-container {
+  padding: 30px;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+.label,
+.occupation {
+  color: rgb(219, 68, 219);
 }
